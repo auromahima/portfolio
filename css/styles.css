@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.about-me {
+    max-width: 600px;
+}
+
+.about-me h1 {
+    margin: 0 0 10px;
+}
+
+.skills, .experience, .achievements, .contact-me {
+    padding: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.contact-me a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.contact-me a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .profile-picture {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 10px;
+    }
+}
